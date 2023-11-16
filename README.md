@@ -42,7 +42,7 @@ Repositório destinado ao registro das atividades e desafios realizados durante 
 - [ ] Segurança em Aplicações WEB
 - [ ] Métodos ágeis de A a Z: o curso completo
 
-### [Sprint 1](sprint_1/README.md) <kbd><progress value="2" max="3"></progress></kbd>
+### [Sprint 1](sprint_1/README.md) <kbd><progress value="66" max="100"></progress></kbd>
 
 - [x] Linux para Desenvolvedores
 - [x] Git e GitHub
@@ -83,7 +83,7 @@ Repositório destinado ao registro das atividades e desafios realizados durante 
 ### Sprint 9 <kbd><progress value="0" max="1"></progress></kbd>
 - [ ] Data & Analytics - PB
 
-### Sprint 10 kbd><progress value="0" max="2"></progress></kbd>
+### Sprint 10 <kbd><progress value="0" max="2"></progress></kbd>
 - [ ] AWS QuickSight
 - [ ] Data & Analytics - PB
 
