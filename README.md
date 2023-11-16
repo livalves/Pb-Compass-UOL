@@ -28,62 +28,59 @@ Repositório destinado ao registro das atividades e desafios realizados durante 
 
 ```
 
-<center> 
+<div align="center"> 
   <a href = "mailto:liviamabelle@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/livia--alves" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
   <a href="mailto:livia.alves.pb@compasso.com.br" target="_blank"><img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" target="_blank"></a> 
-</center>
+</div> 
 
-
-## Trilha D&A - AWS  
-
-
+## Trilha D&A - AWS 
 
 - [ ] Segurança em Aplicações WEB
 - [ ] Métodos ágeis de A a Z: o curso completo
 
-### [Sprint 1](sprint_1/README.md) <kbd><progress value="66" max="100"></progress></kbd>
+### [Sprint 1](sprint_1/README.md) <progress value="66" max="100"></progress>
 
 - [x] Linux para Desenvolvedores
 - [x] Git e GitHub
 - [ ] Data & Analytics - PB
 
-### [Sprint 2](sprint_1/README.md) <kbd><progress value="0" max="3"></progress></kbd>
+### [Sprint 2](sprint_1/README.md) <progress value="0" max="100"></progress>
 - [ ] SQL para Análise de Dados
 - [ ] Big Data Fundamentos 
 - [ ] Data & Analytics - PB
 
-### Sprint 3 <kbd><progress value="0" max="2"></progress></kbd>
+### Sprint 3 <progress value="0" max="100"></progress>
 - [ ] Python 3
 - [ ] Data & Analytics - PB
 
-### Sprint 4 <kbd><progress value="0" max="5"></progress></kbd>
+### Sprint 4 <progress value="0" max="100"></progress>
 - [ ] Programação funcional 
 - [ ] Python 3
 - [ ] Docker para Desenvolvedores
 - [ ] Estatística Descritiva com Python
 - [ ] Data & Analytics - PB
 
-### Sprint 5 <kbd><progress value="0" max="2"></progress></kbd>
+### Sprint 5 <progress value="0" max="100"></progress>
 - [ ] AWS Skill Builder
 - [ ] Data & Analytics - PB
 
-### Sprint 6 <kbd><progress value="0" max="2"></progress></kbd>
+### Sprint 6 <progress value="0" max="100"></progress>
 - [ ] AWS Skill Builder
 - [ ] Data & Analytics - PB
 
-### Sprint 7 <kbd><progress value="0" max="3"></progress></kbd>
+### Sprint 7 <progress value="0" max="100"></progress>
 - [ ] Hadoop, MapReduce for Big Data problems
 - [ ] Formação Spark com Pyspark
 - [ ] Data & Analytics - PB
 
-### Sprint 8 <kbd><progress value="0" max="1"></progress></kbd>
+### Sprint 8 <progress value="0" max="100"></progress>
 - [ ] Data & Analytics - PB
 
-### Sprint 9 <kbd><progress value="0" max="1"></progress></kbd>
+### Sprint 9 <progress value="0" max="100"></progress>
 - [ ] Data & Analytics - PB
 
-### Sprint 10 <kbd><progress value="0" max="2"></progress></kbd>
+### Sprint 10 <progress value="0" max="100"></progress>
 - [ ] AWS QuickSight
 - [ ] Data & Analytics - PB
 
