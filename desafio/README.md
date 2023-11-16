@@ -1,0 +1,3 @@
+# ⚙️ Aguardando inicio da Sprint 7...
+
+Aqui será registrado os artefatos referente a entrega do desafio final. 

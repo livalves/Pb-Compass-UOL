@@ -39,53 +39,55 @@ Repositório destinado ao registro das atividades e desafios realizados durante 
 - [ ] Segurança em Aplicações WEB
 - [ ] Métodos ágeis de A a Z: o curso completo
 
-### [Sprint 1](sprint_1/README.md) <progress value="66" max="100"></progress>
+### 🧩 [Sprint 1](sprint_1/README.md) ![Progress](https://progress-bar.dev/66/)
+
 
 - [x] Linux para Desenvolvedores
 - [x] Git e GitHub
 - [ ] Data & Analytics - PB
 
-### [Sprint 2](sprint_1/README.md) <progress value="0" max="100"></progress>
+### 🧩 [Sprint 2](sprint_1/README.md) ![Progress](https://progress-bar.dev/0/)
 - [ ] SQL para Análise de Dados
 - [ ] Big Data Fundamentos 
 - [ ] Data & Analytics - PB
 
-### Sprint 3 <progress value="0" max="100"></progress>
+### 🧩 Sprint 3 ![Progress](https://progress-bar.dev/0/)
 - [ ] Python 3
 - [ ] Data & Analytics - PB
 
-### Sprint 4 <progress value="0" max="100"></progress>
+### 🧩 Sprint 4 ![Progress](https://progress-bar.dev/0/)
 - [ ] Programação funcional 
 - [ ] Python 3
 - [ ] Docker para Desenvolvedores
 - [ ] Estatística Descritiva com Python
 - [ ] Data & Analytics - PB
 
-### Sprint 5 <progress value="0" max="100"></progress>
+### 🧩 Sprint 5 ![Progress](https://progress-bar.dev/0/)
 - [ ] AWS Skill Builder
 - [ ] Data & Analytics - PB
 
-### Sprint 6 <progress value="0" max="100"></progress>
+### 🧩 Sprint 6 ![Progress](https://progress-bar.dev/0/)
 - [ ] AWS Skill Builder
 - [ ] Data & Analytics - PB
 
-### Sprint 7 <progress value="0" max="100"></progress>
+### 🧩 Sprint 7 ![Progress](https://progress-bar.dev/0/)
 - [ ] Hadoop, MapReduce for Big Data problems
 - [ ] Formação Spark com Pyspark
 - [ ] Data & Analytics - PB
 
-### Sprint 8 <progress value="0" max="100"></progress>
+### 🧩 Sprint 8 ![Progress](https://progress-bar.dev/0/)
 - [ ] Data & Analytics - PB
 
-### Sprint 9 <progress value="0" max="100"></progress>
+### 🧩 Sprint 9 ![Progress](https://progress-bar.dev/0/)
 - [ ] Data & Analytics - PB
 
-### Sprint 10 <progress value="0" max="100"></progress>
+### 🧩 Sprint 10 ![Progress](https://progress-bar.dev/0/)
 - [ ] AWS QuickSight
 - [ ] Data & Analytics - PB
 
 
 ## Desafio
 
+⚠️ O desafio final será iniciado a partir da sprint 7 e logo poderá acompanhar atualizações [por aqui](desafio/README.md) ⚠️
 
 #
