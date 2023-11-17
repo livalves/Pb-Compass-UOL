@@ -8,21 +8,23 @@ Cursos realizados durante a Sprint:
 - Linux para Desenvolvedores (c/ terminal, Shell, Apache e +)
 - Git e GitHub do básico ao avançado (c/ gist e GitHub Pages)
 
+Logo após, para a finalização do exexercício desta sprint foi criado o [repositório](https://github.com/livalves/Pb-Compass-UOL) e o editor de texto escolhido foi o _Visual Studio Code_.
+
 ## Evidências
 
-Para a finalização deste exercício foi criado o [repositório](https://github.com/livalves/Pb-Compass-UOL) e o editor de texto escolhido foi o _Visual Studio Code_.
+> Criação e desenvolvimento do README.md   
+![Utilizando o VSCode](evidencias/vscode.png)
 
-
-![Realizando as atividades](evidencias/atividade.png)
+> Realizando commit e push (adicionar imagem)
 
 
 ## Certificados
 
-- Git e GitHub do básico ao avançado
+- Git e GitHub do básico ao avançado (Finalizado por completo)
 
 ![Cerificado do curso de Git e Github](certificados/certificado-git.jpg)
 
-- Linux para Desenvolvedores
+- Linux para Desenvolvedores (Finalizado pela trilha)
 
 ![Curso de Linux finalizado](certificados/finalizacao-linux1.png)
 
