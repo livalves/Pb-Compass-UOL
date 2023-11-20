@@ -1,4 +1,4 @@
-# Sprint 2
+# Sprint 1
 
 > A sprint foi realizada de 06 a 20 de novembro de 2023 com o objetivo de aprender ainda mais sobre a utilização de comandos do sistema Linux, Git e Github. 
 
@@ -15,8 +15,10 @@ Logo após, para a finalização do exercício desta sprint foi criado o [reposi
 > Criação e desenvolvimento do README.md   
 ![Utilizando o VSCode](evidencias/vscode.png)
 
+
 > Realizando commit e push
 ![Atualizando o código pelo Git](evidencias/git.png)
+
 
 > ![Finalizando](evidencias/finalizando.png)
 
