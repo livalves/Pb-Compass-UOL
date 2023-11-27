@@ -39,15 +39,15 @@ Repositório destinado ao registro das atividades e desafios realizados durante 
 - [ ] Segurança em Aplicações WEB
 - [ ] Métodos ágeis de A a Z: o curso completo
 
-### 🧩 [Sprint 1](sprint_1/README.md) ![Progress](https://progress-bar.dev/66/)
+### 🧩 [Sprint 1](sprint_1/README.md) ![Progress](https://progress-bar.dev/100/)
 
 
 - [x] Linux para Desenvolvedores
 - [x] Git e GitHub
-- [ ] Data & Analytics - PB
+- [X] Data & Analytics - PB
 
-### 🧩 [Sprint 2](sprint_2/README.md) ![Progress](https://progress-bar.dev/0/)
-- [ ] SQL para Análise de Dados
+### 🧩 [Sprint 2](sprint_2/README.md) ![Progress](https://progress-bar.dev/33/)
+- [x] SQL para Análise de Dados
 - [ ] Big Data Fundamentos 
 - [ ] Data & Analytics - PB
 
