@@ -8,13 +8,16 @@ Cursos realizados durante a Sprint:
 - SQL para Análise de Dados: Do básico ao avançado
 - Big Data Fundamentos 3.0
 
-### Exercicio Biblioteca
+Para a realização das seguintes atividades foi escolhido o cliente _DBeaver_.
+
+#### 1. [Exercício Biblioteca](queries/queries-biblioteca.sql)
+
+#### 2. [Exercício Loja](queries/queries-loja.sql)
 
 ## Evidências
 
-> Utilizando o DBeaver 
-
-![Utilizando o DBeaver](evidencias/)
+> Demonstração de query criada e teste realizado.
+![Utilizando o DBeaver](evidencias/evd-q8.png)
 
 ## Certificados
 
