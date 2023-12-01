@@ -46,10 +46,10 @@ Repositório destinado ao registro das atividades e desafios realizados durante 
 - [x] Git e GitHub
 - [X] Data & Analytics - PB
 
-### 🧩 [Sprint 2](sprint_2/README.md) ![Progress](https://progress-bar.dev/33/)
+### 🧩 [Sprint 2](sprint_2/README.md) ![Progress](https://progress-bar.dev/100/)
 - [x] SQL para Análise de Dados
-- [ ] Big Data Fundamentos 
-- [ ] Data & Analytics - PB
+- [x] Big Data Fundamentos 
+- [x] Data & Analytics - PB
 
 ### 🧩 Sprint 3 ![Progress](https://progress-bar.dev/0/)
 - [ ] Python 3
