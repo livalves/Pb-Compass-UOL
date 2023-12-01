@@ -51,11 +51,11 @@ Repositório destinado ao registro das atividades e desafios realizados durante 
 - [x] Big Data Fundamentos 
 - [x] Data & Analytics - PB
 
-### 🧩 Sprint 3 ![Progress](https://progress-bar.dev/0/)
+### 🧩 [Sprint 3](sprint_3/README.md) ![Progress](https://progress-bar.dev/0/)
 - [ ] Python 3
 - [ ] Data & Analytics - PB
 
-### 🧩 Sprint 4 ![Progress](https://progress-bar.dev/0/)
+### 🧩 [Sprint 4](sprint_4/README.md) ![Progress](https://progress-bar.dev/0/)
 - [ ] Programação funcional 
 - [ ] Python 3
 - [ ] Docker para Desenvolvedores
