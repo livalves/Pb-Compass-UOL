@@ -13,7 +13,7 @@ Para a realização das seguintes atividades foi utilizado o VScode.
 
 #### 2. [Exercício I - 2/2](exercicios/exercicio2.py)
 
-#### 3. [Exercício II - 1/2](exercicios/exercicio3.py)
+#### 3. [Exercício II](exercicios/exercicio3.py)
 
 #### 4. [Desafio ETL](exercicios/desafio/)
 
