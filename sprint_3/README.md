@@ -1,6 +1,6 @@
 # Sprint 3
 
-> A sprint foi realizada de 04 a 18 de dezembro de 2023 com o objetivo de aprender sobre a linguagem de programação Python.
+> A sprint foi realizada de 4 a 18 de dezembro de 2023 com o objetivo de aprender sobre a linguagem de programação Python, praticando a resolução de exercícios e desenvolvendo ETL.
 
 ## Exercícios  
 
@@ -15,12 +15,13 @@ Para a realização das seguintes atividades foi utilizado o VScode.
 
 #### 3. [Exercício II](exercicios/exercicio3.py)
 
-#### 4. [Desafio ETL](exercicios/desafio/)
+#### 4. [Desafio ETL](exercicios/desafio/README.md)
 
 
 ## Evidências
 
-
+> Desenvolvendo e testando o código.
+![Testando o código](evidencias/evidencia.png)
 
 ## Certificados
 
