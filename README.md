@@ -36,8 +36,8 @@ Repositório destinado ao registro das atividades e desafios realizados durante 
 
 ## Trilha D&A - AWS 
 
-- [ ] Segurança em Aplicações WEB
-- [ ] Métodos ágeis de A a Z: o curso completo
+- [ ] Segurança em Aplicações WEB 
+- [x] [Métodos ágeis de A a Z: o curso completo](imagens/certificado-metodos-ageis.jpg)
 
 ### 🧩 [Sprint 1](sprint_1/README.md) ![Progress](https://progress-bar.dev/100/)
 
