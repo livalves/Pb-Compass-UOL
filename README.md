@@ -36,7 +36,7 @@ Repositório destinado ao registro das atividades e desafios realizados durante 
 
 ## Trilha D&A - AWS 
 
-- [ ] Segurança em Aplicações WEB 
+- [x] [Segurança em Aplicações WEB](imagens/certificado-segurança-web.jpg)
 - [x] [Métodos ágeis de A a Z: o curso completo](imagens/certificado-metodos-ageis.jpg)
 
 ### 🧩 [Sprint 1](sprint_1/README.md) ![Progress](https://progress-bar.dev/100/)
@@ -55,14 +55,14 @@ Repositório destinado ao registro das atividades e desafios realizados durante 
 - [x] Python 3
 - [x] Data & Analytics - PB
 
-### 🧩 [Sprint 4](sprint_4/README.md) ![Progress](https://progress-bar.dev/0/)
-- [ ] Programação funcional 
-- [ ] Python 3
-- [ ] Docker para Desenvolvedores
-- [ ] Estatística Descritiva com Python
+### 🧩 [Sprint 4](sprint_4/README.md) ![Progress](https://progress-bar.dev/80/)
+- [x] Programação funcional 
+- [x] Python 3
+- [x] Docker para Desenvolvedores
+- [x] Estatística Descritiva com Python
 - [ ] Data & Analytics - PB
 
-### 🧩 Sprint 5 ![Progress](https://progress-bar.dev/0/)
+### 🧩 [Sprint 5](sprint_5/README.md) ![Progress](https://progress-bar.dev/0/)
 - [ ] AWS Skill Builder
 - [ ] Data & Analytics - PB
 
