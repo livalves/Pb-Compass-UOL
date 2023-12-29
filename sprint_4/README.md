@@ -1,6 +1,6 @@
 # Sprint 4
 
-> A sprint foi realizada de 18 a 29 de dezembro de 2023 com o objetivo de aprender sobre a linguagem de programação Python, focada na programação funcional, estatística descritiva e na utilização do Docker.
+> A sprint foi realizada de 18 de dezembro a 01 de janeiro de 2024 com o objetivo de aprender sobre a linguagem de programação Python, focada na programação funcional, estatística descritiva e na utilização do Docker.
 
 ## Exercícios  
 
@@ -11,14 +11,14 @@ Cursos realizados durante a Sprint:
 
 Para a realização das seguintes atividades foi utilizado o VScode.
 
-#### 1. [Exercícios de programação](exercicios/)
+#### 1. [Exercícios de programação](exercicios/python/exercicios.py)
 
 #### 2. [Exercício - Container com Docker](exercicios/)
 
 ## Evidências
 
 > Desenvolvendo e testando código.
-![Testando o código](evidencias/evidencia-py.png)
+![Testando o código](evidencias/python.png)
 
 > Criando uma imagem.
 ![Criando imagem](evidencias/evidencia-docker.png)
