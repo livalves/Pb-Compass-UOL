@@ -55,12 +55,12 @@ Repositório destinado ao registro das atividades e desafios realizados durante 
 - [x] Python 3
 - [x] Data & Analytics - PB
 
-### 🧩 [Sprint 4](sprint_4/README.md) ![Progress](https://progress-bar.dev/80/)
+### 🧩 [Sprint 4](sprint_4/README.md) ![Progress](https://progress-bar.dev/100/)
 - [x] Programação funcional 
 - [x] Python 3
 - [x] Docker para Desenvolvedores
 - [x] Estatística Descritiva com Python
-- [ ] Data & Analytics - PB
+- [x] Data & Analytics - PB
 
 ### 🧩 [Sprint 5](sprint_5/README.md) ![Progress](https://progress-bar.dev/0/)
 - [ ] AWS Skill Builder

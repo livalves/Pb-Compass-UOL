@@ -9,19 +9,19 @@ Cursos realizados durante a Sprint:
 - Docker para Desenvolvedores (com Docker Swarm e Kubernetes)
 - Estatística Descritiva com Python
 
-Para a realização das seguintes atividades foi utilizado o VScode.
+Para a realização das seguintes atividades foi utilizado o VScode e o Docker.
 
 #### 1. [Exercícios de programação](exercicios/python/exercicios.py)
 
-#### 2. [Exercício - Container com Docker](exercicios/)
+#### 2. [Exercício - Container com Docker](exercicios/docker/README.md)
 
 ## Evidências
 
 > Desenvolvendo e testando código.
 ![Testando o código](evidencias/python.png)
 
-> Criando uma imagem.
-![Criando imagem](evidencias/evidencia-docker.png)
+> Verificando imagens e rodando container.
+![Utilizando docker](evidencias/docker.png)
 
 ## Certificados
 

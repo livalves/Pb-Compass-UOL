@@ -23,6 +23,7 @@ será uma string e o resultado deverá ser a contagem de vogais presentes em seu
 É obrigatório aplicar as seguintes funções: len, filter e lambda.
 Desconsidere os caracteres acentuados. Eles não serão utilizados nos testes do seu código.
 """
+
 def conta_vogais(texto:str)-> int:  
     selec_vogais = lambda t: t.lower() in 'aeiou'
     qtde_vogais = list(filter(selec_vogais, texto))
