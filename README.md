@@ -62,11 +62,11 @@ Repositório destinado ao registro das atividades e desafios realizados durante 
 - [x] Estatística Descritiva com Python
 - [x] Data & Analytics - PB
 
-### 🧩 [Sprint 5](sprint_5/README.md) ![Progress](https://progress-bar.dev/0/)
-- [ ] AWS Skill Builder
-- [ ] Data & Analytics - PB
+### 🧩 [Sprint 5](sprint_5/README.md) ![Progress](https://progress-bar.dev/100/)
+- [x] AWS Skill Builder
+- [x] Data & Analytics - PB
 
-### 🧩 Sprint 6 ![Progress](https://progress-bar.dev/0/)
+### 🧩 [Sprint 6](sprint_6/README.md) ![Progress](https://progress-bar.dev/0/)
 - [ ] AWS Skill Builder
 - [ ] Data & Analytics - PB
 
