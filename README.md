@@ -16,7 +16,7 @@ Repositório destinado ao registro das atividades e desafios realizados durante 
 
 📌 Resido em Barbalha, interior do Ceará
 
-🎓 Graduanda do 7° semestre do curso de Sistemas de Informação na UNINASSAU Juazeiro do Norte
+🎓 Graduanda do 8° semestre do curso de Sistemas de Informação na UNINASSAU Juazeiro do Norte
 
 👩🏽‍🎓 Técnica em Redes de Computadores 
 
@@ -66,11 +66,11 @@ Repositório destinado ao registro das atividades e desafios realizados durante 
 - [x] AWS Skill Builder
 - [x] Data & Analytics - PB
 
-### 🧩 [Sprint 6](sprint_6/README.md) ![Progress](https://progress-bar.dev/0/)
-- [ ] AWS Skill Builder
+### 🧩 [Sprint 6](sprint_6/README.md) ![Progress](https://progress-bar.dev/50/)
+- [x] AWS Skill Builder
 - [ ] Data & Analytics - PB
 
-### 🧩 Sprint 7 ![Progress](https://progress-bar.dev/0/)
+### 🧩 [Sprint 7](sprint_7/README.md) ![Progress](https://progress-bar.dev/0/)
 - [ ] Hadoop, MapReduce for Big Data problems
 - [ ] Formação Spark com Pyspark
 - [ ] Data & Analytics - PB
