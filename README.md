@@ -66,9 +66,9 @@ Repositório destinado ao registro das atividades e desafios realizados durante 
 - [x] AWS Skill Builder
 - [x] Data & Analytics - PB
 
-### 🧩 [Sprint 6](sprint_6/README.md) ![Progress](https://progress-bar.dev/50/)
+### 🧩 [Sprint 6](sprint_6/README.md) ![Progress](https://progress-bar.dev/100/)
 - [x] AWS Skill Builder
-- [ ] Data & Analytics - PB
+- [x] Data & Analytics - PB
 
 ### 🧩 [Sprint 7](sprint_7/README.md) ![Progress](https://progress-bar.dev/0/)
 - [ ] Hadoop, MapReduce for Big Data problems

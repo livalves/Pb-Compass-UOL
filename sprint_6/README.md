@@ -31,8 +31,8 @@ Para a realização dos seguintes laboratórios foi utilizado o VScode, o Docker
 
 ## Evidências
 
-> Utilizando o console AWS.
-![Console AWS](evidencias/console-ec2.png)
+> Utilizando o console AWS no serviço Athena.
+![Console AWS](evidencias/console-athena.png)
 
 ## Certificados
 
