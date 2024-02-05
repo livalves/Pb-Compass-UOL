@@ -70,12 +70,12 @@ Repositório destinado ao registro das atividades e desafios realizados durante 
 - [x] AWS Skill Builder
 - [x] Data & Analytics - PB
 
-### 🧩 [Sprint 7](sprint_7/README.md) ![Progress](https://progress-bar.dev/0/)
-- [ ] Hadoop, MapReduce for Big Data problems
-- [ ] Formação Spark com Pyspark
+### 🧩 [Sprint 7](sprint_7/README.md) ![Progress](https://progress-bar.dev/67/)
+- [x] Hadoop, MapReduce for Big Data problems
+- [x] Formação Spark com Pyspark
 - [ ] Data & Analytics - PB
 
-### 🧩 Sprint 8 ![Progress](https://progress-bar.dev/0/)
+### 🧩 [Sprint 8](sprint_8/README.md) ![Progress](https://progress-bar.dev/0/)
 - [ ] Data & Analytics - PB
 
 ### 🧩 Sprint 9 ![Progress](https://progress-bar.dev/0/)
