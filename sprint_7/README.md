@@ -10,7 +10,7 @@ Cursos realizados durante a Sprint:
 
 Para a realização dos seguintes laboratórios foi utilizado o VScode, o Docker e o Console AWS.
 
-#### 1. [Exercício - Python com Pandas](exercicios/python//README.md)
+#### 1. [Exercício - Python com Pandas e Numpy](exercicios/python//README.md)
 
 #### 2. [Exercício - Apache Spark](exercicios/apache/)
 
@@ -20,8 +20,8 @@ Para a realização dos seguintes laboratórios foi utilizado o VScode, o Docker
 
 ## Evidências
 
-> Rodando código python.
-![Código Python](evidencias/)
+> Desenvolvendo e testando código.
+![Código Python](evidencias/python.png)
 
 > Utilizando o console AWS no serviço.
 ![Console AWS](evidencias/)
