@@ -12,7 +12,7 @@ Para a realização dos seguintes laboratórios foi utilizado o VScode, o Docker
 
 #### 1. [Exercício - Python com Pandas e Numpy](exercicios/python//README.md)
 
-#### 2. [Exercício - Apache Spark](exercicios/apache/)
+#### 2. [Exercício - Apache Spark](exercicios/spark/README.md)
 
 #### 3. [Lab AWS Glue](exercicios/glue/)
 
