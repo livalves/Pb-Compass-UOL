@@ -1,6 +1,6 @@
 # Sprint 7
 
-> A sprint foi realizada de 29 de janeiro a 14 de fevereiro de 2024 com o objetivo de aprender sobre o universo Spark e Hadoop.
+> A sprint foi realizada de 29 de janeiro a 14 de fevereiro de 2024 com o objetivo de aprender sobre o universo Spark e Hadoop, com laboratórios práticos, e iniciando o desenvolvimento do projeto final.
 
 ## Exercícios  
 
@@ -14,7 +14,7 @@ Para a realização dos seguintes laboratórios foi utilizado o VScode, o Docker
 
 #### 2. [Exercício - Apache Spark](exercicios/spark/README.md)
 
-#### 3. [Lab AWS Glue](exercicios/glue/)
+#### 3. [Lab AWS Glue](exercicios/glue/README.md)
 
 #### 4. [Desafio](../desafio/README.md)
 
@@ -23,8 +23,8 @@ Para a realização dos seguintes laboratórios foi utilizado o VScode, o Docker
 > Desenvolvendo e testando código.
 ![Código Python](evidencias/python.png)
 
-> Utilizando o console AWS no serviço.
-![Console AWS](evidencias/)
+> Utilizando o console AWS, criação de usuários IAM.
+![Console AWS](evidencias/console-aws.png)
 
 ## Certificados
 
