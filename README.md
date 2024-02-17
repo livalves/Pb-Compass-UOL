@@ -78,7 +78,7 @@ Repositório destinado ao registro das atividades e desafios realizados durante 
 ### 🧩 [Sprint 8](sprint_8/README.md) ![Progress](https://progress-bar.dev/0/)
 - [ ] Data & Analytics - PB
 
-### 🧩 Sprint 9 ![Progress](https://progress-bar.dev/0/)
+### 🧩 [Sprint 9](sprint_9/README.md) ![Progress](https://progress-bar.dev/0/)
 - [ ] Data & Analytics - PB
 
 ### 🧩 Sprint 10 ![Progress](https://progress-bar.dev/0/)
@@ -86,8 +86,8 @@ Repositório destinado ao registro das atividades e desafios realizados durante 
 - [ ] Data & Analytics - PB
 
 
-## Desafio
+## Desafio final
 
-⚠️ O desafio final será iniciado a partir da sprint 7 e logo poderá acompanhar atualizações [por aqui](desafio/README.md) ⚠️
+⚠️ Acompanhe atualizações [por aqui](desafio/README.md) ⚠️
 
 #
