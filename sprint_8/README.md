@@ -1,6 +1,6 @@
 # Sprint 8
 
-> A sprint foi realizada de 15 a -- de fevereiro de 2024 com o objetivo de aprofundar o conhecimento no framework Apache Spark, explorar novos serviços da AWS e avançar no desenvolvimento do projeto final.
+> A sprint foi realizada de 15 a 26 de fevereiro de 2024 com o objetivo de aprofundar o conhecimento no framework Apache Spark, explorar novos serviços da AWS e avançar no desenvolvimento do projeto final.
 
 ## Exercícios  
 
