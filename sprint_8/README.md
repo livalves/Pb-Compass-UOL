@@ -13,7 +13,7 @@ Para a realização dos seguintes laboratórios foi utilizado o VScode e o Conso
 
 #### 2. [Desafio](../desafio/README.md)
 
-#### 3. [Exercício - Geração de massa de dados](exercicios/spark-dados/README.md) 
+#### 3. [Exercício - Geração de massa de dados](exercicios/python/README.md) 
 
 #### 4. [Exercício - Apache Spark](exercicios/spark/README.md) 
 
@@ -21,6 +21,9 @@ Para a realização dos seguintes laboratórios foi utilizado o VScode e o Conso
 
 > Extraindo dados da API TMDB.
 ![Código Python](evidencias/api.png)
+
+> Gerando dados em massa com python.
+![Código Python](evidencias/nomes.png)
 
 ## Certificados
 
