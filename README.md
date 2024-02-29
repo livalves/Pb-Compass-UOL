@@ -75,10 +75,10 @@ Repositório destinado ao registro das atividades e desafios realizados durante 
 - [x] Formação Spark com Pyspark
 - [x] Data & Analytics - PB
 
-### 🧩 [Sprint 8](sprint_8/README.md) ![Progress](https://progress-bar.dev/75/)
-- [ ] Data & Analytics - PB
+### 🧩 [Sprint 8](sprint_8/README.md) ![Progress](https://progress-bar.dev/100/)
+- [x] Data & Analytics - PB
 
-### 🧩 [Sprint 9](sprint_9/README.md) ![Progress](https://progress-bar.dev/0/)
+### 🧩 [Sprint 9](sprint_9/README.md) ![Progress](https://progress-bar.dev/33/)
 - [ ] Data & Analytics - PB
 
 ### 🧩 Sprint 10 ![Progress](https://progress-bar.dev/0/)
