@@ -10,15 +10,15 @@ As colunas foram separadas e distribuídas entre as novas entidades de acordo co
 
 Na tabela `Carro`, também foi informado o `idCombustivel`, que faz referência à sua própria tabela que contém os tipos de combustíveis existentes, visto que mais de um carro pode consumir o mesmo tipo de combustível. 
 
-Já na tabela `Locacao`, foram referenciadas as tabelas `Carro`, `Vendedor` e `Cliente` por meio da utilização da chaves estrangeiras. Foram adicionadas colunas sobre data e hora da locação do veículo, o valor e a quantidade de diárias conforme cada locação e a entrega do veículo locado.
+Já na tabela `Locacao`, foram referenciadas as tabelas `Carro`, `Vendedor` e `Cliente` por meio da utilização da chaves estrangeiras. Foram adicionadas colunas sobre data e hora da locação do veículo, o valor e a quantidade de diárias conforme cada locação e a entrega do veículo locado. Assim como, o campo `kmCarro` foi mantido na tabela `Locacao`, pois refere-se à quilometragem rodada durante a locação.
 
 As tabelas foram criadas com base no seguinte código SQL:
 - [Código SQL](query/create-concessionaria.sql)
 
 > Como cliente, foi utilizado o DBeaver.
-![alt text](capturas/usando-dbeaver.png)
+![Criando tabelas](capturas/usando-dbeaver.png)
 
 > Sendo gerado o diagrama referente a _Modelagem Lógica_ do banco Concessionaria normalizado.
-![alt text](capturas/diagrama.png)
+![Diagrama](capturas/diagrama.png)
 
 

@@ -23,7 +23,6 @@ CREATE TABLE Combustivel (
 
 CREATE TABLE Carro (
     idCarro INT PRIMARY KEY,
-    kmCarro INT,
     classiCarro VARCHAR(50) NOT NULL,
     marcaCarro VARCHAR(80),
     modeloCarro VARCHAR(80),
@@ -38,6 +37,7 @@ CREATE TABLE Locacao (
     idCliente INT,
     idVendedor INT,
     idCarro INT,
+    kmCarro INT,
     dataLocacao DATETIME NOT NULL,
     horaLocacao TIME,
     qtdDiaria INT NOT NULL,
