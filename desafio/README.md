@@ -59,3 +59,31 @@ Os dados requisitados à API tiveram como base a categoria **suspense**  da déc
 ![Dados persistidos no S3](parte_2/capturas/arquivos-s3.png)
 
 
+## Parte 3
+
+- **Processamento da Camada Trusted**
+
+Avançando no desenvolvimento, os dados persistidos na camada RAM foram depurados e organizados para serem armazenados na camada Trusted. Utilizando o Google Colab, os dados do S3 presentes na camada RAM foram importados para o novo ambiente através das credenciais AWS e logo tratados. 
+
+Para funcionamento dos códigos abaixo, é necessario fornecer suas credenciais e a chave do elemento no bucket S3.
+
+O processamento foi realizado com base em cada conjunto de dados (Series, Movies e TMDB), seguindo os arquivos CSV e JSON. 
+
+Ambos os códigos que processam a carga histórica realizam a leitura do arquivo CSV e armazenam os dados em um dataframe pandas. Em seguida, é realizado a limpeza dos caracteres '\N', sendo os dados realocados em um dataframe spark para melhor organização. Posteriomente, as colunas `genero`, `profissao` e `titulosMaisConhecidos` efetuam a separação das strings que estão nesse mesmo campo para arrays. Finalizando o processo, o DataFrame é salvo em formato Parquet, sem fracionamento, e enviado para o bucket S3 na pasta especificada.
+
+- [Código CH Movies](parte_3/codigos/CamadaTrusted_CH_Movies.ipynb)
+- [Código CH Series](parte_3/codigos/CamadaTrusted_CH_Movies.ipynb)
+
+Semelhante a carga anterior, a carga de dados foi processada com a junção em um único dataframe spark, após a leitura em um dataframe pandas. Logo após, ocorreu a limpeza dos dados, considerando apenas a chave `results` para salvamento no arquivo parquet. 
+
+- [Código CD TMDB](parte_3/codigos/CamadaTrusted_CD_TMDB.ipynb)
+
+> Puxando dados do S3 para processamento com o Google Colab
+![Puxando dados do S3 para df Pandas](parte_3/capturas/puxando-dados.png)
+
+> Criando arquivo parquet e enviando ao S3
+![Enviando arquivo parquet ao S3](parte_3/capturas/envio-s3.png)
+
+> Arquivos parquet criados no bucket S3 
+![Pastas no S3](parte_3/capturas/arquivos-aws.png)
+![Arquivo parquet no S3](parte_3/capturas/arquivo_parquet.png)
