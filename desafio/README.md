@@ -49,7 +49,7 @@ Para o funcionamento do código na função Lambda, foi necessário criar um arq
 
 A função lambda **dados-api-tmdb** foi criada com utilização da camada *Layer-tmbd*. O código python logo foi inserido para requisitar a API e salvar dos dados no bucket S3, seguindo o padrão de exemplo "s3://data-lake-livia/Ram/tmdb/json/2024/02/24/data_53-{hora}.json".
 
-Os dados requisitados à API tiveram como base a categoria **suspense**  da década de 90 até fevereiro de 2024, sendo solicitados individualmente para possibilitar o agrupamento por década.
+Os dados requisitados à API tiveram como base a categoria **suspense**  a partir da década de 90, sendo solicitados individualmente para possibilitar o agrupamento por década.
 
 - [Código Lambda](parte_2/codigo/dados-aws.py)
 
@@ -69,7 +69,7 @@ Para funcionamento dos códigos abaixo, é necessario fornecer suas credenciais 
 
 O processamento foi realizado com base em cada conjunto de dados (Series, Movies e TMDB), seguindo os arquivos CSV e JSON. 
 
-Ambos os códigos que processam a carga histórica realizam a leitura do arquivo CSV e armazenam os dados em um dataframe pandas. Em seguida, é realizado a limpeza dos caracteres '\N', sendo os dados realocados em um dataframe spark para melhor organização. Posteriomente, as colunas `genero`, `profissao` e `titulosMaisConhecidos` efetuam a separação das strings que estão nesse mesmo campo para arrays. Finalizando o processo, o DataFrame é salvo em formato Parquet, sem fracionamento, e enviado para o bucket S3 na pasta especificada.
+Ambos os códigos que processam a carga histórica realizam a leitura do arquivo CSV e armazenam os dados em um dataframe pandas. Em seguida, é realizado a limpeza dos caracteres '\N', sendo os dados realocados em um dataframe spark para melhor organização. Posteriomente, as colunas `genero`, `profissao` e `titulosMaisConhecidos` efetuam a separação das strings que estão nesse mesmo campo para arrays. Finalizando o processo, o DataFrame é salvo em formato Parquet, sem fracionamento e enviado para o bucket S3 na pasta especificada.
 
 - [Código CH Movies](parte_3/codigos/CamadaTrusted_CH_Movies.ipynb)
 - [Código CH Series](parte_3/codigos/CamadaTrusted_CH_Movies.ipynb)
@@ -87,3 +87,34 @@ Semelhante a carga anterior, a carga de dados foi processada com a junção em u
 > Arquivos parquet criados no bucket S3 
 ![Pastas no S3](parte_3/capturas/arquivos-aws.png)
 ![Arquivo parquet no S3](parte_3/capturas/arquivo_parquet.png)
+
+- **Modelagem de dados da Refined**
+
+Pensando no processamento dos dados para a camada Refined, foi realizado a modelagem dimensional que possibilitará a consulta dos dados em diferentes perpectivas. 
+
+Levando em consideração as futuras questões a serem respondidas, o modelo desenvolvido expõe o fato principal sobre os filmes de suspense, com as dimensões gênero e filme, contendo suas principais informações.
+
+Como ponto central, a análise será realizada com base nos dados gerais disponibilizados sobre filmes de suspense a partir da década de 90, apresentando as perspectivas: 
+
+- _Como os lançamentos de filmes se distribuem ao longo dos anos?_ 
+- _Como as médias de avaliação dos filmes de suspense se alteram ao longo dos anos?_ 
+- _Qual a influência dos subgêneros nos filmes de suspense?_ 
+
+![Modelagem dimensional](parte_3/capturas/modelagem.png)
+
+- **Processamento da Camada Refined**
+
+Após o processamento na camada trusted, procedeu-se ao processamento na camada refined, seguindo a modelagem dimensional estabelecida.
+
+Realizou-se a leitura do arquivo Parquet da base de filmes, selecionando os campos necessários: `id`, `tituloPincipal`, `anoLancamento`, `genero`, `notaMedia` e `numeroVotos`, referentes aos filmes do gênero suspense.
+
+Em seguida, realizou-se a filtragem para seleção desses filmes e, posteriormente, o salvamento ocorreu também em formato Parquet na pasta RFD no bucket S3, por meio do código executado pelo Google Colab.
+
+- [Código Suspense](parte_3/codigos/CamadaRefined_Movies.ipynb)
+
+> Selecionando as colunas necessárias 
+![Selecionando dados](parte_3/capturas/selecionando-dados.png)
+
+> Arquivo parquet criado e enviado ao bucket S3 
+![Criando arquivo parquet](parte_3/capturas/criando-parquet.png)
+![Aquivo no bucket](parte_3/capturas/parquet-s3.png)
