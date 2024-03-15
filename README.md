@@ -81,8 +81,8 @@ Repositório destinado ao registro das atividades e desafios realizados durante 
 ### 🧩 [Sprint 9](sprint_9/README.md) ![Progress](https://progress-bar.dev/100/)
 - [x] Data & Analytics - PB
 
-### 🧩 Sprint 10 ![Progress](https://progress-bar.dev/0/)
-- [ ] AWS QuickSight
+### 🧩 [Sprint 10](sprint_10/README.md) ![Progress](https://progress-bar.dev/0/)
+- [x] AWS QuickSight
 - [ ] Data & Analytics - PB
 
 
