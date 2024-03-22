@@ -81,13 +81,13 @@ Repositório destinado ao registro das atividades e desafios realizados durante 
 ### 🧩 [Sprint 9](sprint_9/README.md) ![Progress](https://progress-bar.dev/100/)
 - [x] Data & Analytics - PB
 
-### 🧩 [Sprint 10](sprint_10/README.md) ![Progress](https://progress-bar.dev/0/)
+### 🧩 [Sprint 10](sprint_10/README.md) ![Progress](https://progress-bar.dev/100/)
 - [x] AWS QuickSight
-- [ ] Data & Analytics - PB
+- [x] Data & Analytics - PB
 
 
-## Desafio final
+## [Desafio final](desafio/README.md)
 
-⚠️ Acompanhe atualizações [por aqui](desafio/README.md) ⚠️
+- Desenvolvimento do projeto final, ETL e construção de dashboard.
 
 #

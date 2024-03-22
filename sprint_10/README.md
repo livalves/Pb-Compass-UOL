@@ -1,11 +1,11 @@
 # Sprint 10
 
-> A sprint foi realizada de 11 a 22 de março de 2024 com o objetivo de aprender mais sobre a organização dos dados, transformando-os em informação e conhecimento. Nesse último momento, o desafio foi finalizado e o dashboard foi apresentado.
+> A sprint foi realizada de 11 a 25 de março de 2024 com o objetivo de aprender mais sobre a organização dos dados, transformando-os em informação e conhecimento. Nesse último momento, o desafio foi finalizado e o dashboard apresentado.
 
 ## Exercícios  
 
 Curso realizado durante a Sprint:
-- Complete Introduction to AWS QuickSight
+- Complete Introduction to AWS QuickSight.
 
 Para a realização da atividade foi utilizado o Console AWS.
 
@@ -14,7 +14,7 @@ Para a realização da atividade foi utilizado o Console AWS.
 ## Evidências
 
 > Utilizando o serviço AWS QuickSight.
-![Usando o serviço AWS](evidencias/)
+![Configurando parâmetros](evidencias/usando-quicksight.png)
 
 ## Certificados
 

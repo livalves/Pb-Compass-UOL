@@ -1,4 +1,6 @@
-# Projeto Final ⏳
+# Projeto Final
+
+- Abaixo, descreve-se todo o processo de desenvolvimento do desafio final com base nos **filmes de suspense**, desde a coleta e inclusão dos dados no datalake, passando pelas transformações necessárias até a construção do dashboard.
 
 ## Parte 1 
 
@@ -63,6 +65,8 @@ Os dados requisitados à API tiveram como base a categoria **suspense**  a parti
 
 - **Processamento da Camada Trusted**
 
+> ➕ Para prosseguir com as etapas, foi necessário puxar novamente os dados referentes ao TMBD, substituindo no código lambda da etapa 2 a opção "put_object" por "upload_file", garantindo a inclusão de todos os dados necessários no arquivo JSON.
+
 Avançando no desenvolvimento, os dados persistidos na camada RAM foram depurados e organizados para serem armazenados na camada Trusted. Utilizando o Google Colab, os dados do S3 presentes na camada RAM foram importados para o novo ambiente através das credenciais AWS e logo tratados. 
 
 Para funcionamento dos códigos abaixo, é necessario fornecer suas credenciais e a chave do elemento no bucket S3.
@@ -118,3 +122,39 @@ Em seguida, realizou-se a filtragem para seleção desses filmes e, posteriormen
 > Arquivo parquet criado e enviado ao bucket S3 
 ![Criando arquivo parquet](parte_3/capturas/criando-parquet.png)
 ![Aquivo no bucket](parte_3/capturas/parquet-s3.png)
+
+## Parte 4
+
+- Para consumo e apresentação dos dados, foi utilizado o serviço do AWS QuickSight.
+
+> ➕ Considerando as próximas etapas do desenvolvimento do dashboard, em que o Amazon Quicksight não suporta arrays, foi realizado um novo processamento dos dados da trusted mantendo o campo gênero como string. 
+
+Logo em seguida, foi criado o banco de dados `db-datalake` no AWS Glue, o qual recebeu as tabelas criadas pelo serviço Athena, utilizando como base o novo arquivo parquet gerado para a camada Refined.
+
+Confirmando criação da tabela no banco.
+![Criando tabelas](parte_4/capturas/usando-athena.png)
+![Tabelas criadas no banco](parte_4/capturas/tabelas-criadas.png)
+
+Continuando com a utilização do Quicksight, por meio do Athena, foi realizado a criação do dataset `datafilmessuspense` para análise dos dados.
+
+![Criando dataset](parte_4/capturas/criando-dataset.png)
+
+Ainda considerando a utilização das ferramentas do Amazon Quicksight, foi realizado a configuração do campo `anoLancamento` pelo serviço, de string para inteiro.
+
+![Configurando dataset](parte_4/capturas/configurando-dataset.png)
+
+Para construção do dashboard, foi criado o protótipo pela ferramenta Excalidraw buscando atender as perpectivas esperadas.
+
+Foi projetada a utilização de gráficos para apresentação de alguns dados, a criação de uma área interativa em que os dados podem ser filtrados e apresentados por década, de acordo com a escolha do usuário, e uma nuvem de palavras para melhor apresentação das influências. 
+
+![Usando o Quicksight](parte_4/dashboard/prototipo.png)
+
+Já colocando em prática com as ferramentas fornecidas pelo QuickSight, a criação foi efetivada utilizando gráficos de barras, gráficos de linhas, nuvem de palavras, KPIs e tabelas dinâmicas para analisar e expressar a narrativa adequada dos dados dos filmes de suspense a partir da década de 90, com base nas perspectivas citadas na etapa 3.
+
+![Usando o Quicksight](parte_4/capturas/utilizando-quick.png)
+
+Em suma, com base em todo o conhecimento adquirido durante o programa de bolsa e o desafio proposto, foi possível desenvolver o dashboard esperado.
+
+- [Visualizar dashboard em PDF](parte_4/dashboard/dashboard.pdf)
+
+![Dashboard](parte_4/dashboard/dash.png)
