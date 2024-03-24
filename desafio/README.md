@@ -65,7 +65,7 @@ Os dados requisitados à API tiveram como base a categoria **suspense**  a parti
 
 - **Processamento da Camada Trusted**
 
-> ➕ Para prosseguir com as etapas, foi necessário puxar novamente os dados referentes ao TMBD, substituindo no código lambda da etapa 2 a opção "put_object" por "upload_file", garantindo a inclusão de todos os dados necessários no arquivo JSON.
+> ➕ Para prosseguir com as etapas, foi necessário atualizar os dados referente aos arquivos movies e series, substituindo no código python da etapa 1 a opção "put_object" por "upload_file", garantindo a inclusão de todos os dados necessários nos arquivos CSV.
 
 Avançando no desenvolvimento, os dados persistidos na camada RAM foram depurados e organizados para serem armazenados na camada Trusted. Utilizando o Google Colab, os dados do S3 presentes na camada RAM foram importados para o novo ambiente através das credenciais AWS e logo tratados. 
 
