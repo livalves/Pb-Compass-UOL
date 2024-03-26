@@ -155,6 +155,6 @@ Já colocando em prática com as ferramentas fornecidas pelo QuickSight, a cria�
 
 Em suma, com base em todo o conhecimento adquirido durante o programa de bolsa e o desafio proposto, foi possível desenvolver o dashboard esperado.
 
-- [Visualizar dashboard em PDF](parte_4/dashboard/dashboard.pdf)
+- [Visualizar dashboard em PDF](parte_4/dashboard/dash.pdf)
 
 ![Dashboard](parte_4/dashboard/dash.png)
